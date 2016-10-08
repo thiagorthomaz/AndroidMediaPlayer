@@ -9,21 +9,13 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="thiago.mediaplayer.MainActivity">
 
-    <Button
+
+    <ListView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=">"
-        android:id="@+id/btn_play" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="||"
-        android:id="@+id/btn_pause"
-        android:layout_alignTop="@+id/btn_play"
-        android:layout_toRightOf="@+id/btn_play"
-        android:layout_toEndOf="@+id/btn_play" />
-
+        android:id="@+id/musicList"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
 
 
 </RelativeLayout>
